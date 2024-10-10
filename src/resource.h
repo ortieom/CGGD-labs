@@ -57,12 +57,12 @@ namespace cg
 	template<typename T>
 	inline T& resource<T>::item(size_t item)
 	{
-		return T(data.at(item));
+		return data.at(item);
 	}
 	template<typename T>
 	inline T& resource<T>::item(size_t x, size_t y)
 	{
-		return T(data.at(stride * y + x));
+		return data.at(stride * y + x);
 	}
 	template<typename T>
 	inline size_t resource<T>::size_bytes() const
@@ -115,9 +115,11 @@ namespace cg
 		float3 to_float3() const
 		{
 			return float3{
-					static_cast<float>(r) / 255.f,
-					static_cast<float>(g) / 255.f,
-					static_cast<float>(b) / 255.f};
+						   static_cast<float>(r),
+						   static_cast<float>(g),
+						   static_cast<float>(b),
+				   } /
+				   255.f;
 		};
 		uint8_t r;
 		uint8_t g;
