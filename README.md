@@ -25,6 +25,18 @@ cd Build
 cmake ..
 ```
 
+## Creative task: Monte-Carlo light tracing
+Creative task is an adjacement of `closest_hit_shader` for Monte-Carlo light tracing.
+
+Result befor using Monte-Carlo light tracing:
+
+![before Monte-carlo](attachments/image1.png)
+
+
+Result after using Monte-Carlo light tracing:
+![after Monte-carlo](attachments/image2.png)
+
+
 ## Third-party tools and data
 
 - [STB](https://github.com/nothings/stb) by Sean Barrett (Public Domain)
