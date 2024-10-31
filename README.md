@@ -30,11 +30,11 @@ Creative task is an adjacement of `closest_hit_shader` for Monte-Carlo light tra
 
 Result befor using Monte-Carlo light tracing:
 
-![before Monte-carlo](attachments/image1.png)
+![image1](https://github.com/user-attachments/assets/cd5f9e57-60b3-4276-8ad9-9eafcf2269b0)
 
 
 Result after using Monte-Carlo light tracing:
-![after Monte-carlo](attachments/image2.png)
+![image2](https://github.com/user-attachments/assets/68cb3387-1742-441b-b1ae-8607849c005a)
 
 
 ## Third-party tools and data
